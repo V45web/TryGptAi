@@ -1,0 +1,28 @@
+body {
+    font-size: 15pt;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+}
+
+img{
+    width: 500px;
+    height: 100%;
+}
+
+button{
+    margin: 10px;
+    padding: 20px 40px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    background:#2CB900;
+}
+
+button:disabled{
+    background: #C0C0C0;
+}
